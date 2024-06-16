@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class'
+        }
+    </script>
+    <style type="text/tailwind">
+    </style>
+</head>
+
+<body class="dark:bg-slate-800 dark:text-slate-200 pb-20">
+    <div class="max-w-sm hover:bg-sky-600 group  border-slate-300 dark:hover:bg-sky-100 
+            border py-2 px-3 mt-5 mx-auto rounded-lg shadow-md flex flex-col gap-2">
+        <h3 class="font-semibold text-xl group-hover:text-white dark:group-hover:text-slate-700">Hello World</h3>
+        <img src="wallhaven-85pmz2.jpg" alt="" class="rounded-lg">
+        <p class="leading-5 group-hover:text-white selection:bg-fuchsia-200
+             selection:text-black first-letter:text-4xl first-letter:float-left first-letter:me-2 
+             dark:group-hover:text-slate-700">
+            Lorem ipsum dolor
+            sit, amet consectetur
+            adipisicing elit.
+            Inventore deleniti aperiam
+            quis, earum voluptas
+            labore nam distinctio repudiandae unde deserunt dicta consequuntur tempora
+            dolorum ipsa porro similique,
+            autem ab quod.</p>
+        <button class="bg-violet-600  px-10 py-2 rounded-md  block text-white
+                 hover:bg-violet-700  active:bg-violet-900 dark:bg-slate-600
+                  focus:ring-violet-400">Kirim</button>
+    </div>
+    <div class="max-w-sm shadow border p-4 mx-auto mt-5 rounded-xl">
+        <form action="">
+            <label for="email">
+                <span class="text-md block mb-2 after:content-['*'] 
+                after:text-pink-500 after:ms-1">Email</span>
+                <input type="email" id="email" placeholder="masukan Emali" class="px-3 py-2 border w-full text-sm focus:ring-green-300 focus:ring-1
+                    focus:border-green-300 border-slate-300
+                    invalid:text-pink-500 invalid:focus:border-red-500 
+                    shadow-sm rounded focus:outline-none block peer ">
+                <p class="text-sm mt-2 text-red-600 invisible peer-invalid:visible">email tidak valid</p>
+            </label>
+        </form>
+    </div>
+
+    <div class="switch flex justify-center mt-4 gap-3">
+        <label for="">Light</label>
+        <input type="checkbox" id="toggle" class="hidden">
+        <label for="toggle">
+            <div class="w-9 h-5 flex items-center px-1  cursor-pointer rounded-full bg-slate-200 dark:bg-slate-600">
+                <div class="w-3 h-3 bg-slate-800 rounded-full toggle-circle dark:translate-x-4 dark:bg-slate-200"></div>
+            </div>
+        </label>
+        <label for="">dark</label>
+    </div>
+
+    <hr class=" my-10">
+
+    <div class="container max-w-lg  px-3 mx-auto relative">
+        <div class="w-6 h-6 bg-slate-300 absolute rounded-full cursor-pointer -top-2 right-0
+          flex "><span class="m-auto text-red-600 font-bold text-sm">X</span>
+        </div>
+        <div class="p-3 border shadow rounded-lg">
+            <h1 class="text-xl font-semibold mb-3">Gad damnt</h1>
+            <img src="wallhaven-85pmz2.jpg" alt="" width="200" class="rounded-xl float-left me-2">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum animi,
+                nulla nihil saepe laborum eveniet
+                dolorem optio dicta ratione. Ea! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio
+                natus id alias officia laudantium Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet omnis
+                quasi explicabo voluptate eligendi vitae ipsa maiores dolorum expedita neque! incidunt corrupti
+                assumenda obcaecati repellat magni.
+            </p>
+        </div>
+    </div>
+
+    <a href="#" class="w-8 h-8 bg-green-300 rounded-full flex items-center justify-center fixed bottom-4 right-4">
+        <span>🔥</span>
+    </a>
+
+    <div class="container p-4 shadow border mx-auto mt-10 rounded-xl flex flex-col flex-wrap">
+        <img src="wallhaven-85pmz2.jpg" alt="">
+        <img src="wallhaven-85pmz2.jpg" alt="">
+        <img src="wallhaven-85pmz2.jpg" alt="">
+        <img src="wallhaven-85pmz2.jpg" alt="">
+        <img src="wallhaven-85pmz2.jpg" alt="">
+        <img src="wallhaven-85pmz2.jpg" alt="">
+    </div>
+
+    <script>
+        const checkbox = document.querySelector('#toggle')
+        const html = document.querySelector('html')
+
+        checkbox.addEventListener('click', function () {
+            checkbox.checked ? html.classList.add('dark') : html.classList.remove('dark');
+        })
+    </script>
+</body>
+
+</html>

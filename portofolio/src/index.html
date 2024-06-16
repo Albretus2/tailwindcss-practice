@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Urg</title>
+
+    <!-- style css -->
+    <link rel="stylesheet" href="./output.css">
+
+    <!-- link Google Font (Poppins) -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    </style>
+
+    <!-- box icon -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+
+<body>
+
+    <!-- Header Start -->
+    <header class="absolute bg-transparent top-0 left-0 w-full flex items-center z-10">
+        <div class="container">
+            <div class="flex flex-wrap items-center justify-between relative ">
+                <div class="py-4">
+                    <a href="#" class="flex "><i class='bx bx-dizzy text-3xl text-primary '></i></a>
+                </div>
+                <div class="py-4 flex items-center ">
+                    <button id="hamburger" type="button" name="hamburger" class="flex flex-col gap-[3.5px] lg:hidden">
+                        <span class="hamburgerNav transition-all duration-200 ease-in-out"></span>
+                        <span class="hamburgerNav transition-all duration-200 ease-in-out"></span>
+                        <span class="hamburgerNav transition-all duration-200 ease-in-out"></span>
+                    </button>
+                    <nav id="navbar-menu"
+                        class="scale-0 absolute max-w-[180px] w-full py-4 px-3 right-4 top-9 bg-bg shadow-md rounded-lg transition-all duration-200 ease-in-out  lg:static lg:scale-100 lg:bg-transparent lg:shadow-none lg:max-w-full lg:rounded-none ">
+                        <ul class="flex gap-4 lg:gap-10 flex-col lg:flex-row">
+                            <li><a href="#beranda" class="text-sm bx-flashing-hover ">Beranda</a></li>
+                            <li><a href="#tentangSaya" class="text-sm bx-flashing-hover ">Tentang Saya</a></li>
+                            <li><a href="#portofolio" class="text-sm bx-flashing-hover ">Portofolio</a></li>
+                            <li><a href="#client" class="text-sm bx-flashing-hover "> Client</a></li>
+                            <li><a href="#blog" class="text-sm bx-flashing-hover ">Blog</a></li>
+                            <li><a href="#contact" class="text-sm bx-flashing-hover ">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Start -->
+    <section id="beranda" class="mt-36 ">
+        <div class="container ">
+            <div class="flex flex-wrap ">
+                <div class="w-full self-center md:w-1/2">
+                    <h1 class="text-base text-primary font-semibold ">Hi buddy 👋🏻 , nama saya<span
+                            class="block md:text-2xl lg:text-4xl text-dark uppercase">A. Ichvanius
+                            Giharta</span></h1>
+                    <h2 class="font-medium mb-4  text-secondary">Student & <span
+                            class="font-semibold text-dark">Freelancer</span></h2>
+                    <p class="text-secondary text-sm sm:max-w-sm md:max-w-full">Yokosou minasan, saya ichvanius adalah
+                        seorang siswa
+                        di sekolah
+                        menengah
+                        kejurusan yang ada di kabupaten Bandung dan juga sebagai seorang <span
+                            class="font-semibold text-primary"> Freelancer</span>.</p>
+                    <a href="#"
+                        class="text-white px-5 mt-5 text-sm py-2 bg-primary  rounded-lg  inline-flex items-center divide-x divide-gray-400 shadow-lg hover:shadow-none   hover:scale-95 transition-all duration-200 ease-in-out group ">
+                        <span class="pe-4 flex items-center gap-3 ">
+                            <span>Hubungi saya</span>
+                        </span>
+                        <span class="ps-4 flex items-center">
+                            <i class='bx bxs-bell-ring bx-tada-hover text-lg'></i>
+                        </span>
+                    </a>
+
+                </div>
+                <div class="w-full flex justify-end md:w-1/2">
+                    <img src="assets/me.png" alt="ichvanius" class="hidden md:inline-block md:max-w-72 lg:max-w-md  ">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About me Section Start -->
+    <section id="tentangSaya" class="pt-36 pb-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="py-4 md:w-1/2 md:pe-3">
+                    <h1 class="text-base font-bold uppercase mb-3 text-primary ">tentang saya</h1>
+                    <h2 class="text-2xl lg:text-4xl font-semibold mb-3 max-w-lg text-dark">Yuk simak penjelasan mengenai
+                        latar
+                        belakang Saya.
+                    </h2>
+                    <p class="text-sm text-secondary max-w-lg">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                        Dolore
+                        fugiat
+                        exercitationem quo
+                        quibusdam maiores, provident cumque?</p>
+                </div>
+                <div class="py-4 md:w-1/2 md:ps-10">
+                    <h1 class="text-dark font-semibold text-xl mb-3 md:pt-9">Mari Berteman</h1>
+                    <p class="text-sm text-secondary max-w-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Ad
+                        corrupti nihil at
+                        vero libero, iusto
+                        amet quam mollitia tempore id quae quo repellendus provident nemo. Dolorem pariatur at
+                        reiciendis assumenda.</p>
+                    <div class="flex flex-wrap mt-4 gap-3">
+                        <a href="#" target="_blank"
+                            class="flex p-2 rounded-full border border-neutral-300 transition-all duration-300 hover:bg-primary text-secondary hover:text-white">
+                            <i class='bx bxl-youtube text-xl bx-tada-hover '></i>
+                        </a>
+                        <a href="#" target="_blank"
+                            class="flex p-2 rounded-full border border-neutral-300 transition-all duration-300 hover:bg-primary text-secondary hover:text-white">
+                            <i class='bx bxl-facebook text-xl bx-tada-hover'></i>
+                        </a>
+                        <a href="#" target="_blank"
+                            class="flex p-2 rounded-full border border-neutral-300 transition-all duration-300 hover:bg-primary text-secondary hover:text-white">
+                            <i class='bx bxl-instagram-alt text-xl bx-tada-hover'></i>
+                        </a>
+                        <a href="#" target="_blank"
+                            class="flex p-2 rounded-full border border-neutral-300 transition-all duration-300 hover:bg-primary text-secondary hover:text-white">
+                            <i class='bx bxl-twitter text-xl bx-tada-hover'></i>
+                        </a>
+                        <a href="#" target="_blank"
+                            class="flex p-2 rounded-full border border-neutral-300 transition-all duration-300 hover:bg-primary text-secondary hover:text-white">
+                            <i class='bx bxl-twitch text-xl bx-tada-hover'></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About me Section End -->
+
+    <!-- Portofolio Section Start -->
+    <section id="portofolio" class="pt-36 pb-36 bg-slate-200">
+        <div class="container">
+            <div class="max-w-lg text-center mx-auto py-10">
+                <h4 class="font-semibold text-lg text-primary mb-3">Portofolio</h4>
+                <h2 class="font-semibold text-dark text-3xl lg:text-4xl  mb-4">Project Terbaru</h2>
+                <p class="text-sm text-secondary">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sint
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil est n Lorem </p>
+            </div>
+            <div class="w-full flex flex-wrap justify-center mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="flex flex-wrap justify-between content-center mb-3">
+                            <div
+                                class=" px-3 py-1 border-2 border-primary rounded-full flex  items-center justify-center ">
+                                <span class="text-[11px] text-dark">Tugas sekolah </span>
+                            </div>
+                            <div class="gap-2 flex flex-wrap justify-between">
+                                <a href="#" class="text-2xl hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                                <a href="#" class="text-2xl hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bx-window-open'></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <img src="assets/portofolio/1.jpg" alt="tugas sekolah"
+                            class="rounded-xl h-44 md:h-40 lg:h-64 w-full object-cover mb-4 ">
+                        <h2 class="text-lg font-semibold text-dark mb-1">Website Pembayaran Spp</h2>
+                        <p class="text-sm text-secondary line-clamp-2">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Tempore
+                            tempora sequi voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                            aperiam consectetur magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione iste accusamus</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="flex flex-wrap justify-between content-center mb-3">
+                            <div
+                                class=" px-3 py-1 border-2 border-primary rounded-full flex  items-center justify-center ">
+                                <span class="text-[11px] text-dark">Personal Project</span>
+                            </div>
+                            <div class="gap-2 flex flex-wrap justify-between">
+                                <a href="#" class="text-2xl hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                                <a href="#" class="text-2xl hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bx-window-open'></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <img src="assets/portofolio/2.jpg" alt="tugas sekolah"
+                            class="rounded-xl h-44 md:h-40 lg:h-64 w-full object-cover mb-4 ">
+                        <h2 class="text-lg font-semibold text-dark mb-1">Website Project 0032</h2>
+                        <p class="text-sm text-secondary line-clamp-2">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Tempore
+                            tempora sequi voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                            aperiam consectetur magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione iste accusamus</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body ">
+                        <div class="flex flex-wrap justify-between content-center mb-3">
+                            <div
+                                class=" px-3 py-1 border-2 border-primary rounded-full flex  items-center justify-center ">
+                                <span class="text-[11px] text-dark">Personal Projcet</span>
+                            </div>
+                            <div class="gap-2 flex flex-wrap justify-between">
+                                <a href="#"
+                                    class="text-2xl  hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                                <a href="#" class="text-2xl hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bx-window-open'></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <img src="assets/portofolio/3.jpg" alt="tugas sekolah"
+                            class="rounded-xl h-44 md:h-40 lg:h-64 w-full object-cover mb-4 ">
+                        <h2 class="text-lg font-semibold text-dark mb-1">Apllication Project</h2>
+                        <p class="text-sm text-secondary line-clamp-2">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Tempore
+                            tempora sequi voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                            aperiam consectetur magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione iste accusamus</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="flex flex-wrap justify-between content-center mb-3">
+                            <div
+                                class=" px-3 py-1 border-2 border-primary rounded-full flex  items-center justify-center ">
+                                <span class="text-[11px] text-dark">Client Projcet </span>
+                            </div>
+                            <div class="gap-2 flex flex-wrap justify-between">
+                                <a href="#" class="text-2xl hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bxl-github'></i>
+                                </a>
+                                <a href="#" class="text-2xl hover:text-primary transition-all duration-300 ease-in-out">
+                                    <i class='bx bx-window-open'></i>
+                                </a>
+
+                            </div>
+                        </div>
+                        <img src="assets/portofolio/4.jpg" alt="tugas sekolah"
+                            class="rounded-xl h-44 md:h-40 lg:h-64 w-full object-cover mb-4">
+                        <h2 class="text-lg font-semibold text-dark mb-1">Application Projcet</h2>
+                        <p class="text-sm text-secondary line-clamp-2">Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit.
+                            Tempore
+                            tempora sequi voluptates! Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+                            aperiam consectetur magnam? Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Ratione iste accusamus</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Portofolio Section End -->
+
+    <!-- Client Section Start -->
+    <section id="client" class="bg-slate-600 pt-28 pb-36">
+        <div class="container">
+            <div class="max-w-2xl text-center mx-auto py-10">
+                <h4 class="font-semibold text-lg text-primary mb-3">Client</h4>
+                <h2 class="font-semibold text-white text-3xl lg:text-4xl  mb-4">Client yang pernah berkerja sama</h2>
+                <p class="text-sm text-white">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo sint
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate nihil est n Lorem </p>
+            </div>
+            <div class="max-w-full py-5">
+                <div class="flex flex-wrap items-center justify-center">
+                    <a href="#">
+                        <img src="assets/client/google.png" alt="google"
+                            class="max-w-[120px] mx-6 py-2 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                    </a>
+                    <a href="#">
+                        <img src="assets/client/tokopedia.png" alt="tokopedia"
+                            class="max-w-[120px] mx-6 py-2 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                    </a>
+                    <a href="#">
+                        <img src="assets/client/netflix.png" alt="netflix"
+                            class="max-w-[120px] mx-6 py-2 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                    </a>
+                    <a href="#">
+                        <img src="assets/client/nasa.png" alt="nasa"
+                            class="max-w-[120px] mx-6 py-2 grayscale opacity-70 hover:grayscale-0 hover:opacity-100 transition-all duration-500">
+                    </a>
+                </div>
+            </div>
+    </section>
+    <!-- Client Section End -->
+
+    <!-- Blog Section Start -->
+    <section id="blog" class="bg-bg pt-28 pb-36">
+        <div class="container ">
+            <div class="max-w-xl  py-10">
+                <h4 class="font-semibold text-lg text-primary mb-3">Blog</h4>
+                <h2 class="font-semibold text-dark text-3xl lg:text-5xl  mb-4">Kumpulan blog yang paling populer
+                </h2>
+            </div>
+            <div class="max-w-full">
+                <div class="flex flex-wrap">
+                    <div class="px-8 py-6 w-full md:w-1/2 lg:w-1/3 border border-dark">
+                        <div class="flex flex-wrap justify-between items-center mb-5">
+                            <h4 class="text-sm text-secondary">12, feb 2024</h4>
+                            <i class='bx bxs-right-arrow-circle text-2xl'></i>
+                        </div>
+                        <div class="mb-5 overflow-hidden">
+                            <img src="assets/portofolio/1.jpg" alt=""
+                                class="w-full h-80 object-cover hover:scale-125 hover:rotate-6 transition-all duration-500">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Tutorial membuat sesuatu yang tidak berguna</h3>
+                        <p class="text-sm text-secondary mb-14 line-clamp-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Reprehenderit aspernatur qui aliquid
+                            deserunt repellat ducimus iste velit sed!</p>
+                        <div class="flex justify-between text-sm text-secondary">
+                            <span class="me-8">by:<span class="text-dark font-medium"> Albertus I.G</span></span>
+                            <a href="#" class="underline text-dark bx-flashing-hover">Baca selengkapnya</a>
+                        </div>
+                    </div>
+                    <!-- divide -->
+                    <div class="px-8 py-6 w-full md:w-1/2 lg:w-1/3 border border-dark">
+                        <div class="flex flex-wrap justify-between items-center mb-5">
+                            <h4 class="text-sm text-secondary">12, feb 2024</h4>
+                            <i class='bx bxs-right-arrow-circle text-2xl'></i>
+                        </div>
+                        <div class="mb-5 overflow-hidden">
+                            <img src="assets/portofolio/3.jpg" alt=""
+                                class="w-full h-80 object-cover hover:scale-125 hover:rotate-6 transition-all duration-500">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Tutorial membuat sesuatu yang tidak berguna</h3>
+                        <p class="text-sm text-secondary mb-14 line-clamp-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Reprehenderit aspernatur qui aliquid
+                            deserunt repellat ducimus iste velit sed!</p>
+                        <div class="flex justify-between text-sm text-secondary">
+                            <span class="me-8">by:<span class="text-dark font-medium"> Albertus I.G</span></span>
+                            <a href="#" class="underline text-dark bx-flashing-hover">Baca selengkapnya</a>
+                        </div>
+                    </div>
+                    <!-- divide -->
+                    <div class="px-8 py-6 w-full md:w-1/2 lg:w-1/3 border border-dark">
+                        <div class="flex flex-wrap justify-between items-center mb-5">
+                            <h4 class="text-sm text-secondary">12, feb 2024</h4>
+                            <i class='bx bxs-right-arrow-circle text-2xl'></i>
+                        </div>
+                        <div class="mb-5 overflow-hidden">
+                            <img src="assets/portofolio/2.jpg" alt=""
+                                class="w-full h-80 object-cover hover:scale-125 hover:rotate-6 transition-all duration-500">
+                        </div>
+                        <h3 class="text-xl font-semibold mb-3">Tutorial membuat sesuatu yang tidak berguna</h3>
+                        <p class="text-sm text-secondary mb-14 line-clamp-3">Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit.
+                            Reprehenderit aspernatur qui aliquid
+                            deserunt repellat ducimus iste velit sed!</p>
+                        <div class="flex justify-between text-sm text-secondary">
+                            <span class="me-8">by:<span class="text-dark font-medium"> Albertus I.G</span></span>
+                            <a href="#" class="underline  text-dark bx-flashing-hover">Baca selengkapnya</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="flex flex-wrap lg:justify-end md:justify-start mt-9">
+                <a href="#"
+                    class="px-8 py-2 border flex items-center gap-3 border-dark hover:bg-primary hover:text-white transition-all duration-500 ">
+                    <span>Lihat lainnya</span>
+                    <i class='bx bx-right-arrow-alt text-2xl'></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section End -->
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="bg-white pt-28 pb-28">
+        <div class="container">
+            <div class="max-w-ful pt-10 pb-10 md:pb-16 border-y border-dark">
+                <h4 class="mb-4 md:mb-14 text-primary text-base">Tertarik Bekerjas sama dengan saya ?</h4>
+                <h1 class="uppercase text-4xl lg:text-[100px]">let's cooperate <span class="text-secondary">**</span>
+                </h1>
+            </div>
+            <div class="max-w-full">
+                <form action="">
+                    <div class="flex flex-wrap  py-10 ">
+                        <div class="w-1/2 pe-3">
+                            <label for="nama" class="mb-10 block">
+                                <span class="font-semibold uppercase mb-2 block">Nama</span>
+                                <input type="text" name="nama" placeholder="Masukan Nama"
+                                    class="w-full bg-transparent border-none focus:outline-none text-secondary ">
+                            </label>
+                            <label for="email" class="mb-10 block">
+                                <span class="font-semibold uppercase  mb-2 block">Email</span>
+                                <input type="email" name="email" placeholder="Masukan Email"
+                                    class="w-full bg-transparent border-none focus:outline-none text-secondary ">
+                            </label>
+                            <label for="pesan">
+                                <span class="font-semibold uppercase  mb-2 block">Pesan</span>
+                                <textarea name="pesan" id="pesan" placeholder="Tulis Pesan di sini"
+                                    class="block bg-transparent focus:outline-none w-1/2 "></textarea>
+                            </label>
+
+                        </div>
+                        <div class="w-1/2 ps-3">
+                            <label for="subject" class="mb-10 block">
+                                <span class="font-semibold uppercase  mb-2 block">Subject</span>
+                                <input type="text" name="subject" placeholder="Pilih Subject"
+                                    class="w-full bg-transparent border-none focus:outline-none text-secondary ">
+                            </label>
+                            <label for="email" class="mb-10 block">
+                                <span class="font-semibold uppercase  mb-2 block">Company</span>
+                                <input type="text" name="company" placeholder="Opsional"
+                                    class="w-full bg-transparent border-none focus:outline-none text-secondary ">
+                            </label>
+                            <button class="text-lg leading-relaxed flex items-center gap-3 bx-flashing-hover">
+                                <span class="underline">Kirim</span>
+                                <i class='bx bx-arrow-back rotate-180 text-xl'></i>
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer class="pt-16 pb-36 bg-dark">
+        <div class="container">
+            <div class="flex flex-wrap items-start justify-between">
+                <div class="w-full md:max-w-sm  text-white mb-4">
+                    <h4>Copyright©️ 2024</h4>
+                    <h4>Created by A. ICHVANIUS GIHARTA</h4>
+                    <p>Bandung, Indonesia</p>
+                </div>
+                <div class="w-full md:max-w-xl  text-white">
+                    <div class="pb-4 text-sm border-b border-white max-w-full flex justify-between">
+                        <a href="#beranda" class="bx-flashing-hover">Beranda</a>
+                        <span class="text-secondary">./</span>
+                        <i class='bx bx-arrow-back rotate-180'></i>
+                    </div>
+                    <div class="py-4 text-sm border-b border-white max-w-full flex justify-between">
+                        <a href="#" class="bx-flashing-hover">Instagram</a>
+                        <span class="text-secondary">@alberre.jpeg</span>
+                        <i class='bx bx-arrow-back rotate-180'></i>
+                    </div>
+                    <div class="py-4 text-sm border-b border-white max-w-full flex justify-between">
+                        <a href="#" class="bx-flashing-hover">github</a>
+                        <span class="text-secondary">@Albretus2</span>
+                        <i class='bx bx-arrow-back rotate-180'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
